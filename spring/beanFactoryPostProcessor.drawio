@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="AKpcfMyupfmr6bvoD8BU" name="Page-1">
-        <mxGraphModel dx="1054" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000000" pageHeight="10000000" math="0" shadow="0">
+        <mxGraphModel dx="1587" dy="917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000000" pageHeight="10000000" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -26,37 +26,37 @@
                     <mxGeometry x="1040" y="310" width="390" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="350" y="800" width="60" height="360" as="geometry"/>
+                    <mxGeometry x="387.5" y="640" width="60" height="360" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5" target="6">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="用户手动加入的BeanFactoryPostProcessor" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" vertex="1" parent="1">
-                    <mxGeometry x="430" y="800" width="315" height="80" as="geometry"/>
+                    <mxGeometry x="467.5" y="640" width="315" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="6" value="以方法参数的形式注入进来的" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" vertex="1" parent="1">
-                    <mxGeometry x="807.5" y="810" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="845" y="650" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="7" value="整个工厂中通过类型匹配找到的" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" vertex="1" parent="1">
-                    <mxGeometry x="807.5" y="920" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="845" y="760" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9" target="7">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="实现了BeanDefinitionRegistryPostProcessor接口的类" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" vertex="1" parent="1">
-                    <mxGeometry x="430" y="910" width="315" height="80" as="geometry"/>
+                    <mxGeometry x="467.5" y="750" width="315" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" value="通过类型匹配找到的" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" vertex="1" parent="1">
-                    <mxGeometry x="807.5" y="1030" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="845" y="870" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="14" target="12">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" value="实现了BeanFactoryPostProcessor接口的类" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" vertex="1" parent="1">
-                    <mxGeometry x="430" y="1020" width="315" height="80" as="geometry"/>
+                    <mxGeometry x="467.5" y="860" width="315" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="15" value="如果自定义实现了BeanFacotryPostProcessor接口，那么想让spring识别到的话，有两种方式&lt;br&gt;1、定义在spring配置文件中，让spring自动识别&lt;br&gt;2、在自己实现的启动类中，比如ClassPathXMLApplicationContext中，重写customizeBeanFactory方法，调用父类的，addBeanFactoryPostProcessor方法，把自定义的BeanFactoryPostProcessor" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-                    <mxGeometry x="997.5" y="810" width="440" height="280" as="geometry"/>
+                    <mxGeometry x="1035" y="650" width="440" height="280" as="geometry"/>
                 </mxCell>
                 <mxCell id="17" value="他是BeanfactoryPostProcessor的子类，他的关注点在于，操作BeanDefinition，BeanFactoryPostProcessor更加偏向于整个工厂的增强" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};fontSize=15;" vertex="1" parent="1">
                     <mxGeometry x="1510" y="200" width="330" height="90" as="geometry"/>
@@ -102,23 +102,84 @@
                 </mxCell>
                 <mxCell id="30" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=15;" edge="1" parent="1" source="29">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="480" y="1300" as="targetPoint"/>
+                        <mxPoint x="517.5" y="1140" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="29" value="Priority&lt;br&gt;Ordered" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fontSize=15;" vertex="1" parent="1">
-                    <mxGeometry x="430" y="1150" width="100" height="100" as="geometry"/>
+                    <mxGeometry x="467.5" y="990" width="100" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="35" value="" style="edgeStyle=none;html=1;fontSize=15;" edge="1" parent="1" source="32" target="34">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="32" value="&lt;span&gt;Ordered&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fontSize=15;" vertex="1" parent="1">
-                    <mxGeometry x="430" y="1300" width="100" height="100" as="geometry"/>
+                    <mxGeometry x="467.5" y="1140" width="100" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="34" value="没有实现任何排序接口" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fontSize=15;" vertex="1" parent="1">
-                    <mxGeometry x="430" y="1460" width="100" height="100" as="geometry"/>
+                    <mxGeometry x="467.5" y="1300" width="100" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="36" value="Spring中声明为，registry的，都是对应的一些增删改查操作&lt;br&gt;以BeanDefinitionRegisty为例，它就是对beanDeifinition的一些crud操作" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};fontSize=15;" vertex="1" parent="1">
                     <mxGeometry x="290" y="160" width="400" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;dashed=1;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="39" target="45">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="39" target="53">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="677.5" y="1010"/>
+                            <mxPoint x="1655.5" y="1010"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=15;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="39" target="57">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="BeanDefinition" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="627.5" y="1090" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=15;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="42" target="48">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="GenericBeanDefinition" style="whiteSpace=wrap;html=1;rounded=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="1027.5" y="1060" width="192.5" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="RootBeanDefinition" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="775" y="1140" width="192.5" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="ScannedGenericBeanDefinition" style="whiteSpace=wrap;html=1;rounded=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="1280" y="1060" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=15;dashed=1;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="53" target="48">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="AnnotatedBeanDefinition" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="1540" y="1057.5" width="230" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="57" target="42">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="AbstractBeanDefinition" style="whiteSpace=wrap;html=1;rounded=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="775" y="1060" width="192.5" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=15;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="60" target="61">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="xml配置文件开始进行解析" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="628.75" y="1410" width="552.5" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="annotation的形式解析加载" style="whiteSpace=wrap;html=1;rounded=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="845" y="1290" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=15;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="65" target="67">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1267.5" y="1360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="65" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;fontSize=15;size=0.2;" vertex="1" parent="1">
+                    <mxGeometry x="1200" y="1270" width="20" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="现有xml,再有annotation，注解形式的出现，并没有破坏底层代码结构，并且和xml可以一起使用，Spring框架扩展性的一种体现" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="1265" y="1280" width="210" height="160" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
