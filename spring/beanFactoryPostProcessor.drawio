@@ -181,6 +181,33 @@
                 <mxCell id="67" value="现有xml,再有annotation，注解形式的出现，并没有破坏底层代码结构，并且和xml可以一起使用，Spring框架扩展性的一种体现" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
                     <mxGeometry x="1265" y="1280" width="210" height="160" as="geometry"/>
                 </mxCell>
+                <mxCell id="70" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=15;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="68" target="69">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="bfpp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="1600" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=15;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="69" target="71">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="ConfigurationClassPostProcessor，处理注解相关的解析工作&lt;br&gt;@Component&amp;nbsp; @ComponentScan @Import&lt;br&gt;&amp;nbsp;@ImportResource @PropertySource @Bean，在解析@Import的时候，会识别到AutoConfigurationImportSelector有一个属性是延迟加载ImportSelector" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="667.5" y="1577.5" width="420" height="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=15;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="71" target="74">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="在延迟加载的时候，会调用一个getImports方法，或获取到autoConfigurationEntry的一个对象" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="1120.01" y="1600" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="在获取entry对象的时候，会调用AutoConfigurationImportSelector#getCandidateConfigurations&lt;br&gt;方法，此时会把配置文件的属性值加载回来，来完成自动装配" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="1390" y="1600" width="440" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=15;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="76" target="68">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="Spring自动装配问题" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="1600" width="130" height="60" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
