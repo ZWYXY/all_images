@@ -1,0 +1,128 @@
+<mxfile host="65bd71144e">
+    <diagram id="t16SsNMuyzqZtGHPlsDO" name="Page-1">
+        <mxGraphModel dx="1374" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000000" pageHeight="10000000" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;fontStyle=1" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;fontStyle=1" edge="1" parent="1" source="2" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;fontStyle=1" edge="1" parent="1" source="2" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;fontStyle=1" edge="1" parent="1" source="2" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;quot;jetbrains mono extrabold&amp;quot; , monospace ; font-size: 12.0pt&quot;&gt;&lt;span style=&quot;color: #ffc66d&quot;&gt;initializeBean&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="360" y="5069" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=none;html=1;fontStyle=1" edge="1" parent="1" source="3" target="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="914" y="4854"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="" style="edgeStyle=none;html=1;fontStyle=1" edge="1" parent="1" source="3" target="13">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="933" y="4923"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="" style="edgeStyle=none;html=1;fontStyle=1" edge="1" parent="1" source="3" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="执行调用Aware接口对应方法" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="583" y="4961" width="241" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="edgeStyle=none;html=1;fontSize=15;" edge="1" parent="1" source="5" target="32">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="执行after的初始化方法" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="613" y="5377" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="edgeStyle=none;html=1;fontStyle=1" edge="1" parent="1" source="7" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="edgeStyle=none;html=1;fontStyle=1" edge="1" parent="1" source="7" target="19">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="755" y="5161"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="执行before的初始化方法" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="609" y="5076" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="edgeStyle=none;html=1;fontSize=14;fontStyle=1" edge="1" parent="1" source="9" target="23">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="edgeStyle=none;html=1;fontSize=14;fontStyle=1" edge="1" parent="1" source="9" target="25">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="811" y="5308"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="执行init-method" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="609" y="5227" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="BeanNameAware" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="960" y="4811" width="205" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="BeanClassLoaderAware" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="951" y="4881" width="226" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="BeanFactoryAware" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="960" y="4943" width="238" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="ApplicationContextAwareProcessor" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="807" y="5047" width="291" height="63" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="edgeStyle=none;html=1;fontSize=17;fontStyle=1" edge="1" parent="1" source="19" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="CommonAnnoatationBeanPostProcessor" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+                    <mxGeometry x="803" y="5136" width="339" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="edgeStyle=none;html=1;fontSize=15;" edge="1" parent="1" source="21" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="edgeStyle=none;html=1;fontSize=15;" edge="1" parent="1" source="21" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="edgeStyle=none;html=1;fontSize=15;" edge="1" parent="1" source="21" target="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="InitDestoryAnnotationBeanPostProcessor" style="whiteSpace=wrap;html=1;fontSize=17;rounded=1;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="1256" y="5129" width="376" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="实现了InitializingBean接口之后调用afterPropertiesSet方法" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="826" y="5192" width="416" height="72" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="调用执行用户自定义初始化方法init-method" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="838" y="5285" width="371" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="@PostContruct" style="whiteSpace=wrap;html=1;fontSize=17;rounded=1;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="1744" y="5076" width="130" height="61" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="@PreDestory" style="whiteSpace=wrap;html=1;fontSize=17;rounded=1;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="1739" y="5177" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="edgeStyle=none;html=1;fontSize=15;" edge="1" parent="1" source="32" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="AbstractAutoProxyCreator" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="813" y="5377" width="291" height="61" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="AOP" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="1213" y="5377.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

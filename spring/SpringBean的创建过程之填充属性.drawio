@@ -1,0 +1,214 @@
+<mxfile host="65bd71144e">
+    <diagram id="dhdRvR6XYTM5xbdnKFDT" name="Page-1">
+        <mxGraphModel dx="1112" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000000" pageHeight="10000000" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="7" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1170" y="2000" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1170" y="2090" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="注入的方式" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="960" y="2020" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="不注入" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1300" y="1860" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="按照类型注入" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1300" y="1950" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="按照名称注入" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1300" y="2040" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="按照构造器注入" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1300" y="2130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="11" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="11" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="360" y="1900"/>
+                            <mxPoint x="360" y="2050"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="属性分类" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="1870" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="12" target="19" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="基本类型" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="410" y="1820" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="13" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="引用类型" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="2020" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="16" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="从容器中获取具体的对象值，如果有，直接赋值，如果没有就创建" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="2015" width="290" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1500" y="1935" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="1560" y="1935"/>
+                            <mxPoint x="1560" y="1785"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="24" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1590" y="1935" as="targetPoint"/>
+                        <mxPoint x="1500" y="1935" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="1560" y="1935"/>
+                            <mxPoint x="1560" y="1855"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1500" y="1935" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="28" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1540" y="2175" as="targetPoint"/>
+                        <mxPoint x="1500" y="1935" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="30" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1540" y="2195" as="targetPoint"/>
+                        <mxPoint x="1500" y="1935" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="19" target="31" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="直接完成赋值操作" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="610" y="1820" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="array" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="1620" y="1755" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="list" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="1620" y="1825" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="set" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="1620" y="1905" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Map" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="1620" y="1975" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="properties" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="1620" y="2055" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="4类8种" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="1820" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="1490" y="1790" width="20" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="35" target="36" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="35" target="36" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" parent="1" source="35" target="40" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="590" y="2360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="35" target="43" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="500" y="2320"/>
+                            <mxPoint x="500" y="2500"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="35" target="45" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="500" y="2320"/>
+                            <mxPoint x="500" y="2620"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="populateBean" style="whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="2290" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="36" target="47" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="调用postProcessAfterInstantiation方法来完成属性的赋值工作，可以直接终止后续的值处理工作，也可以让后续的属性完成覆盖操作，取决于你自己" style="whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="2220" width="400" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="40" target="51" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="40" target="53" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="根据配置文件的autowire属性来决定使用名称注入还是类型注入" style="whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="2330" width="400" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="43" target="55" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="将对象中定义的@Autowired注解进行解析，并完成对象或者属性的注入" style="whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="2470" width="390" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="45" target="59" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="根据property标签定义的属性值，完成各种属性值的解析和赋值工作" style="whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="2590" width="400" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="postProcessAfterInstantiation" style="whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="1090" y="2240" width="250" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="autowireByType" style="whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="1160" y="2380" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="autowireByName" style="whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="1160" y="2310" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="55" target="57" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="postProcessProperties" style="whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="1090" y="2470" width="250" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="AutowiredAnnotationBeanPostProcessor" style="whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="1420" y="2470" width="350" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="applyPropertyValues" style="whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="1110" y="2590" width="200" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
