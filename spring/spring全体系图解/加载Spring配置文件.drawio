@@ -1,0 +1,159 @@
+<mxfile host="65bd71144e">
+    <diagram id="DIEWpcdP-CdbJFsCB096" name="Page-1">
+        <mxGraphModel dx="896" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000000" pageHeight="1000000" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="9" value="" style="edgeStyle=none;html=1;fontSize=19;" edge="1" parent="1" source="3" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="xml" style="whiteSpace=wrap;html=1;fontSize=19;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="730" width="210" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Bean定义信息" style="whiteSpace=wrap;html=1;fontSize=19;verticalAlign=top;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="770" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;fontSize=19;" edge="1" parent="1" source="7" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="BeanDefinitionReader" style="whiteSpace=wrap;html=1;fontSize=19;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="900" y="715" width="440" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="XmlBeanDefinitionReader" style="whiteSpace=wrap;html=1;fontSize=19;verticalAlign=top;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="990" y="760" width="260" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="edgeStyle=none;html=1;fontSize=19;" edge="1" parent="1" source="10" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="经过一系列的loadBeanDefinitions方法，最终为了完成当前配置文件的加载操作" style="whiteSpace=wrap;html=1;fontSize=19;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="885" y="920" width="470" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="edgeStyle=none;html=1;fontSize=19;" edge="1" parent="1" source="12" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="doLoadBeanDefinitions实际干活的方法，完成配置文件的解析工作" style="whiteSpace=wrap;html=1;fontSize=19;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="930" y="1030" width="380" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="edgeStyle=none;html=1;fontSize=19;" edge="1" parent="1" source="14" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="doLoadDocument将配置文件解析成文档对象，方便通过父子节点的方式获取出对应的元素标签" style="whiteSpace=wrap;html=1;fontSize=19;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="925" y="1150" width="395" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="edgeStyle=none;html=1;fontSize=19;" edge="1" parent="1" source="16" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="registerBeanDefinitions解析标签元素，且完成注册功能（Map）" style="whiteSpace=wrap;html=1;fontSize=19;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="927.5" y="1270" width="385" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="edgeStyle=none;html=1;fontSize=19;" edge="1" parent="1" source="18" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="doRegisterBeanDefinitions实际完成注册的操作" style="whiteSpace=wrap;html=1;fontSize=19;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="980" y="1350" width="280" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="edgeStyle=none;html=1;fontSize=19;" edge="1" parent="1" source="20" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="parseBeanDefinitions解析beanDefinition" style="whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="990" y="1440" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=19;" edge="1" parent="1" source="24" target="29">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=orthogonalEdgeStyle;elbow=vertical;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=19;" edge="1" parent="1" source="24" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="是否是默认的标签（bean标签）" style="rhombus;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="947.5" y="1630" width="350" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="edgeStyle=none;html=1;fontSize=19;" edge="1" parent="1" source="26" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="遍历外层标签中的子标签，然后开始判断使用什么样的方式进行解析操作" style="whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="955" y="1530" width="330" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=19;elbow=vertical;" edge="1" parent="1" source="29" target="41">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="parseDefauleElement&lt;br&gt;使用默认的方式进行解析" style="whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="1850" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=19;elbow=vertical;" edge="1" parent="1" source="31" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="parseCustomElement使用额外的方式进行解析" style="whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="1210" y="1850" width="297.5" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=19;elbow=vertical;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="35" target="39">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1688.75" y="1995" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=19;elbow=vertical;" edge="1" parent="1" source="35" target="41">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="根据当前标签的命名空间字符串去查找对应的handler处理类" style="whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="1203.75" y="1960" width="310" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Spring.handlers" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="1570" y="1946.25" width="320" height="97.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=19;elbow=vertical;" edge="1" parent="1" source="41" target="46">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=19;elbow=vertical;" edge="1" parent="1" source="41" target="48">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="handler.parse(ele，new ParserContext(this.readerContext,this,containingBd)&lt;br&gt;通过不同的handler对象去解析不同的标签元素" style="whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="866.8800000000001" y="2080" width="511.25" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="将解析完成的beanDefinition对象注册到容器的BeanDefinitionMap和BeanDefinitionNames集合中" style="whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="778.76" y="2230" width="687.49" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=19;elbow=vertical;" edge="1" parent="1" source="48" target="50">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="不同的标签有不同的处理类，具体的处理逻辑可能不同，但是最终都会获取到完成的beanDefinition对象" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="1470" y="2065.63" width="420" height="108.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=19;elbow=vertical;" edge="1" parent="1" source="50" target="52">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="此处会判断是否要完成某些内部bean的bd加载" style="whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="1505" y="2248.76" width="350" height="71.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=19;elbow=vertical;" edge="1" parent="1" source="52" target="54">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="有一堆internal的内部对象，大部分跟注解相关" style="whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="1460" y="2390" width="440" height="84.38" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="ConfigurationClassPostProcessor" style="whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="2050" y="2378.28" width="420" height="107.81" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="AutowiredAnnotationBeanPostProcessor" style="whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="2047.5" y="2500" width="425" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="CommonAnnotationBeanPostProcessor" style="whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="2047.5" y="2620" width="422.5" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="EventListenerMethodProcessor" style="whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="2047.5" y="2750" width="422.5" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="EventListenerMethodProcessor" style="whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="2047.5" y="2880" width="422.5" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="AspectAwareAdvisorProxyCreartor" style="whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="2047.5" y="3010" width="422.5" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="2500" y="2378.28" width="20" height="731.72" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="这些internal对象可以在AnnotaionConfigUtil和AopConfigUtil中看到" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="2550" y="2659.14" width="370" height="170" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
