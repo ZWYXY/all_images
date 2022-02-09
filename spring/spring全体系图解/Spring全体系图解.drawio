@@ -1435,6 +1435,401 @@
                 <mxCell id="528" value="调用此方法&lt;br&gt;afterSingletonInstantiated&lt;br&gt;来完成对bean的处理工作" style="whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
                     <mxGeometry x="3726.26" y="2950" width="297.5" height="110" as="geometry"/>
                 </mxCell>
+                <mxCell id="533" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="531" target="532">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="531" value="创建代理对象的过程中，是通过wrapIfNecessary方法来创建对象的" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="790" y="3430" width="880" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="535" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="532" target="534">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="532" value="获取代理对象，并且执行对应的方法来进行处理" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="860" y="3605" width="740" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="537" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="534" target="536">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="534" value="看到的是反编译之后的字节码文件，调用任何方法，执行的都是DynamicAdvisedInterceptor对象" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="1030" y="3730" width="400" height="117.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="539" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="536" target="538">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="536" value="intercept（）&lt;br&gt;开始执行具体的流程" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="990" y="3905" width="480" height="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="541" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="538" target="540">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="556" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="538" target="555">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="538" value="getInterceptorsAndDynamicInterceptionAdvice或者整个消息通知的责任链，按照链式接口依次调用执行" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="875" y="4072.5" width="710" height="97.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="542" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=24;" edge="1" parent="1" source="540" target="543">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2360" y="3760" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="550" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=24;" edge="1" parent="1" source="540" target="545">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="551" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=24;" edge="1" parent="1" source="540" target="546">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="552" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=24;" edge="1" parent="1" source="540" target="547">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="553" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;" edge="1" parent="1" source="540" target="548">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="554" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=24;" edge="1" parent="1" source="540" target="549">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="540" value="拦截器链中包含多少个对象由之前定义的消息通知来决定，如果全部定义的话，有6个" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="1640" y="4091.25" width="550" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="543" value="AspectJMethodBeforeAdvice" style="whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+                    <mxGeometry x="2440" y="3745" width="340" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="545" value="AspectJMethodAroundAdvice" style="whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+                    <mxGeometry x="2440" y="3830" width="340" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="546" value="AspectJMethodAfterAdvice" style="whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+                    <mxGeometry x="2440" y="3905" width="340" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="547" value="AspectJMethodAfterThrowingAdvice" style="whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+                    <mxGeometry x="2440" y="3990" width="410" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="548" value="AspectJMethodAfterReturningAdvice" style="whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+                    <mxGeometry x="2440" y="4072.5" width="410" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="549" value="ExposedInvocationInterceptor" style="whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+                    <mxGeometry x="2440" y="4160" width="340" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="559" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="555" target="558">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="565" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="555" target="564">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="555" value="开始调用具体的方法" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="1120" y="4230" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="561" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="558" target="560">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="558" value="创建CglibMethodInvocation对象" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="1470" y="4230" width="270" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="560" value="proceed()实际上调用的是父类的方法(ReflectiveMethodInvocation)，然后从拦截器链中根据下标依次获取到每一个元素来进行相关的处理" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="1791.25" y="4195" width="508.75" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="568" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="564" target="567">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="564" value="从-1的下标位置开始，一次获取对应的元素" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="1081.25" y="4370" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="570" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="567" target="569">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="572" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="567" target="571">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="567" value="先获取0号位置的元素exposedInvocationInterceptor" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="1020.3200000000002" y="4520" width="411.87" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="569" value="把当前对象设置到ThreadLocal变量中，方便在链中直接进行获取，并且根据原来的下标依次获取元素" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="1482.5" y="4487.5" width="489.99" height="125" as="geometry"/>
+                </mxCell>
+                <mxCell id="574" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="571" target="573">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="576" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="571" target="575">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="571" value="获取1号位置的AfterThrowing 元素" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="1098.12" y="4660" width="256.26" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="698" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=24;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="573" target="697">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="573" value="什么处理工作都不做，直接向下执行，因为afterThrowing对应的是程序执行过程中出现的异常情况，此时还没有执行任何代码，所以直接跳过" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="1400" y="4620" width="590" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="578" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="575" target="577">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="580" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="575" target="579">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="575" value="获取2号位置的AfterReturning元素" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="4800" width="333.75" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="694" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=24;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="577" target="693">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="577" value="doNothing，直接在正常的逻辑执行完成之后，在进行调用" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="1490" y="4795" width="429.38" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="582" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="579" target="581">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="584" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="579" target="583">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="689" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=24;strokeColor=#FF9933;strokeWidth=2;" edge="1" parent="1" source="579" target="643">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1325" y="5030"/>
+                            <mxPoint x="1940" y="5030"/>
+                            <mxPoint x="1940" y="4950"/>
+                            <mxPoint x="2380" y="4950"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="579" value="&lt;span&gt;获取3号位置的After元素&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="4940" width="353.13" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="691" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontSize=24;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="581" target="643">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1862" y="4940"/>
+                            <mxPoint x="2270" y="4940"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="581" value="doNothing，直接在正常的逻辑执行完成之后，再进行调用处理" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="1482.5" y="4930" width="379.99" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="586" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="583" target="585">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="624" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;strokeColor=#FF9933;strokeWidth=5;" edge="1" parent="1" source="583" target="579">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="970" y="5100"/>
+                            <mxPoint x="970" y="4970"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="625" value="返回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=24;" vertex="1" connectable="0" parent="624">
+                    <mxGeometry x="0.1663" y="3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="583" value="获取4号位置的Around元素" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="1073.59" y="5070" width="306.57" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="588" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="585" target="587">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="585" value="开始执行Around消息通知的逻辑" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="1500.85" y="5062.5" width="429.15" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="590" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="587" target="589">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="587" value="在业务流程执行之前先执行around的前置逻辑invokeAdviceMethod" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="2050" y="4962.5" width="418.44" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="592" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="589" target="591">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="589" value="this.aspectJAdviceMethod.invoke(this.aspectInstanceFactory.getAspectInstance(),actualArgs)&lt;br&gt;调用到实际的方法中" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="2045" y="5120" width="1005" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="594" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="591" target="593">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="591" value="执行前置逻辑" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="2163.83" y="5227.5" width="190.78" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="596" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="593" target="595">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="620" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=24;" edge="1" parent="1" source="593" target="621">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2920" y="5430.75" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="593" value="pjp.proceed(args)&lt;br&gt;pjp对象中包含了cglibMehodInvocation对象，所以在进行调用的时候，能够回到拦截器链中继续向下执行" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="2091.14" y="5350" width="336.17" height="162.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="598" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="595" target="597">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="640" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.003;entryY=0.182;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=24;strokeColor=#FF9933;strokeWidth=5;" edge="1" parent="1" source="595" target="593">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="641" value="返回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=24;" vertex="1" connectable="0" parent="640">
+                    <mxGeometry x="0.1961" y="3" relative="1" as="geometry">
+                        <mxPoint x="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="595" value="获取5号位置的元素&lt;br&gt;Before" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="1087.5" y="5401.25" width="286.88" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="600" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="597" target="599">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="597" value="在实际的业务逻辑执行之前，先把核心的before中的逻辑给执行了，开始调用MethodBeforeAdvice中的before方法" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="5353.75" width="360" height="155" as="geometry"/>
+                </mxCell>
+                <mxCell id="602" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="599" target="601">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="599" value="invokeAdviceMethod" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="677.5" y="5550" width="285" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="604" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="601" target="603">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="601" value="invokeAdviceMthodWithGivenArgs" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="620.32" y="5700" width="400" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="606" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="603" target="605">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="603" value="一系列的invoke方法" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="685.48" y="5860" width="269.68" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="610" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="605" target="609">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="605" value="实际的before的消息通知" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="6000" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="612" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="609" target="611">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="609" value="此时链上的所有拦截器都已经执行完毕，该执行具体的方法逻辑了" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="1166.88" y="6000" width="333.12" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="614" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="611" target="613">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="611" value="invokeJoinPoint" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="1273.44" y="6210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="615" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=24;strokeColor=#FF9933;strokeWidth=5;" edge="1" parent="1" source="613" target="595">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1830" y="6381"/>
+                            <mxPoint x="1830" y="5720"/>
+                            <mxPoint x="1231" y="5720"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="616" value="返回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=24;" vertex="1" connectable="0" parent="615">
+                    <mxGeometry x="0.4201" y="6" relative="1" as="geometry">
+                        <mxPoint x="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="613" value="经过一系列的invoke方法的执行，调用到业务方法中，然后开始返回" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="1155.16" y="6330" width="356.56" height="101.77" as="geometry"/>
+                </mxCell>
+                <mxCell id="623" value="返回" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=24;strokeColor=#FF9933;" edge="1" parent="1" source="621" target="583">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2665" y="5320"/>
+                            <mxPoint x="1227" y="5320"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="621" value="执行Around后置逻辑操作" style="whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+                    <mxGeometry x="2550" y="5396.88" width="230" height="68.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="692" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;strokeColor=#FF9933;strokeWidth=2;" edge="1" parent="1" source="643" target="575">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="970" y="4890"/>
+                            <mxPoint x="970" y="4830"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="696" value="返回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=24;" vertex="1" connectable="0" parent="692">
+                    <mxGeometry x="0.6193" y="-5" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="643" value="执行后置的逻辑处理" style="whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+                    <mxGeometry x="2270" y="4860" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="653" value="返回" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=24;strokeColor=#FF9933;strokeWidth=5;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2665" y="5396.88" as="sourcePoint"/>
+                        <mxPoint x="1226.875" y="5130" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2665" y="5320"/>
+                            <mxPoint x="1227" y="5320"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="659" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=24;strokeColor=#FF9933;strokeWidth=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1511.7199999999998" y="6378.8150000000005" as="sourcePoint"/>
+                        <mxPoint x="1230.94" y="5459.18" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1830" y="6378.93"/>
+                            <mxPoint x="1830" y="5717.93"/>
+                            <mxPoint x="1231" y="5717.93"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="660" value="返回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=24;" vertex="1" connectable="0" parent="659">
+                    <mxGeometry x="0.4201" y="6" relative="1" as="geometry">
+                        <mxPoint x="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="695" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;strokeColor=#FF9933;strokeWidth=2;" edge="1" parent="1" source="693" target="571">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2084" y="4780"/>
+                            <mxPoint x="970" y="4780"/>
+                            <mxPoint x="970" y="4690"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="693" value="执行后续的处理逻辑" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="2003.83" y="4800" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="700" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=24;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="697" target="699">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2390" y="4690"/>
+                            <mxPoint x="2390" y="4690"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="703" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=24;" vertex="1" connectable="0" parent="700">
+                    <mxGeometry x="-0.2304" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="702" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=24;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="697" target="701">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="704" value="没有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=24;" vertex="1" connectable="0" parent="702">
+                    <mxGeometry x="0.29" y="-1" relative="1" as="geometry">
+                        <mxPoint y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="697" value="判断是否有异常情况" style="rhombus;whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="2110" y="4650" width="200" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="699" value="执行异常处理逻辑" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="2420" y="4660" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="701" value="直接返回" style="whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="2150" y="4460" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="705" value="此图中虽然配置了具体的advice顺序，但是根据你的实际配置情况，顺序可能有所不同，所以要根据业务代码来判断具体优先执行哪个" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="4730" width="310" height="250" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
