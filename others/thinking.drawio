@@ -1,0 +1,57 @@
+<mxfile host="65bd71144e">
+    <diagram id="atdX_HlI-NCcewLE7spn" name="Page-1">
+        <mxGraphModel dx="1051" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000000" pageHeight="10000000" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="差异化竞争" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="360" width="220" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="自身价值（提供稀缺属性）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1000" y="380" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1450" y="410"/>
+                            <mxPoint x="1450" y="520"/>
+                            <mxPoint x="1060" y="520"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="&lt;font style=&quot;font-size: 14px&quot;&gt;反哺（良性循环，建立壁垒）&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7">
+                    <mxGeometry x="0.3292" y="-2" relative="1" as="geometry">
+                        <mxPoint x="15" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="有时间，有经济做自己想做的事情（财富自由）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1200" y="380" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="8" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="如何进行差异化竞争？" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="230" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="10" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="选择哪（些）条赛道进行差异化竞争？" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="560" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="12" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="差异化竞争之前的准备？&lt;br&gt;如何高效学习？&lt;br&gt;找到合适自己的赛道？&lt;br&gt;如何能够再自己当前所在的领域达到头部20%？&lt;br&gt;存在悖论——因为不想去投入更多的精力达到第一&lt;br&gt;所以选择差异化竞争？&lt;br&gt;当前赛道做到什么程度？普通人能够达到的水平偏上一些，具体多少根据需要！&lt;br&gt;如果在一些领域特别擅长，那么尝试达到头部20%、10%，再如果这个领域能带来大量反哺，可以尝试成为第一&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="303.75" width="400" height="212.5" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
