@@ -1,9 +1,17 @@
 <mxfile host="65bd71144e">
     <diagram id="cApB70MFTi6iOSX3uqk2" name="Page-1">
-        <mxGraphModel dx="2014" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000000" pageHeight="1000000" math="0" shadow="0">
+        <mxGraphModel dx="1867" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000000" pageHeight="1000000" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="173" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;curved=1;" edge="1" parent="1" source="14" target="61">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1350" y="980"/>
+                            <mxPoint x="1350" y="710"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="14" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1380" y="840" width="780" height="560" as="geometry"/>
                 </mxCell>
@@ -78,7 +86,7 @@
                         <mxPoint x="1330" y="1205" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="19" value="&lt;font style=&quot;font-size: 14px&quot;&gt;定义解析处理规范，方便扩展&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="19" value="&lt;font style=&quot;font-size: 14px&quot;&gt;对读取文件方式进行抽象&lt;br&gt;定义解析处理规范，方便扩展&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1220" y="910" width="110" height="380" as="geometry"/>
                 </mxCell>
                 <mxCell id="35" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="27" target="31" edge="1">
@@ -114,7 +122,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="40" value="&lt;font style=&quot;font-size: 18px&quot;&gt;SpringBean&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="760" y="1600" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="690" y="1650" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="47" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="41" target="43" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -129,19 +137,19 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="41" value="&lt;span style=&quot;font-size: 18px&quot;&gt;Scope&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="920" y="1600" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="850" y="1650" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="43" value="&lt;font style=&quot;font-size: 18px&quot;&gt;prototype&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1112.5" y="1500" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="1042.5" y="1550" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="44" value="&lt;font style=&quot;font-size: 18px&quot;&gt;singleton&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="1112" y="1580" width="120" height="60" as="geometry"/>
+                <mxCell id="44" value="&lt;font style=&quot;font-size: 18px&quot;&gt;singleton&lt;br&gt;(default)&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="1042" y="1630" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="45" value="&lt;font style=&quot;font-size: 18px&quot;&gt;request&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1112" y="1660" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="1042" y="1710" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="46" value="&lt;font style=&quot;font-size: 18px&quot;&gt;session&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1112.5" y="1740" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="1042.5" y="1790" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="55" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=block;endFill=1;" parent="1" source="52" target="54" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -149,20 +157,17 @@
                 <mxCell id="52" value="&lt;b&gt;&lt;font&gt;&lt;span style=&quot;font-size: 24px&quot;&gt;BeanFactory&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Bean工厂，整个容器的根接口，也是容器入口&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
                     <mxGeometry x="1380" y="760" width="780" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="54" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;三个重要的接口和实现&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;BeanFactory&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;DefaultListableBeanFactory&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp;AbstractAutowireCapableBeanFactory&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" parent="1" vertex="1">
+                <mxCell id="54" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;三个重要的接口和实现&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;BeanFactory&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;DefaultListableBeanFactory&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;AbstractAutowireCapableBeanFactory&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" parent="1" vertex="1">
                     <mxGeometry x="2130" y="620" width="400" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="59" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;arrowWidth=0.3723963419596354;arrowSize=0.06754795954777644;" parent="1" vertex="1">
                     <mxGeometry x="1520" y="850" width="60" height="390" as="geometry"/>
                 </mxCell>
-                <mxCell id="62" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=block;endFill=1;" parent="1" source="60" target="61" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
                 <mxCell id="60" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;BeanFactoryPostProcessor&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="1412.5" y="890" width="277.5" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="61" value="&lt;h1&gt;BeanFactoryPostProcessor&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;为什么要有BeanFactoryPostProcessor?&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;在容器的创建过程中，需要动态的修改BeanDefination信息，怎么办？&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;那么问题又来了，为什么要动态的修改BeanDefination信息，直接配置文件中定义好不就行了？&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;举个例子：&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;&amp;lt;property name = url&amp;nbsp; value = ${jdbc:url} &amp;gt;如果要链接数据库，我需要把这里替换成真实的url，那么怎么办呢？&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;此时，BeanFactoryPostProcessor就派上了用场，可以动态修改BeanDefination信息，将jdbc:url替换成真实的jdbcurl链接&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="480" y="700" width="880" height="190" as="geometry"/>
+                <mxCell id="61" value="&lt;h1&gt;BeanFactoryPostProcessor&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;为什么要有BeanFactoryPostProcessor?&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;在容器的创建过程中，需要动态的修改BeanDefination信息，怎么办？&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;那么问题又来了，为什么要动态的修改BeanDefination信息，直接配置文件中定义好不就行了？&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;举个例子：&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;&amp;lt;property name = url&amp;nbsp; value = ${jdbc:url} &amp;gt;如果要链接数据库，我需要把这里替换成真实的url，那么怎么办呢？&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;此时，BeanFactoryPostProcessor就派上了用场，可以动态修改BeanDefination信息，将jdbc:url替换成真实的jdbcurl链接&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="620" width="870" height="180" as="geometry"/>
                 </mxCell>
                 <mxCell id="67" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;" parent="1" source="64" target="66" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -170,34 +175,20 @@
                 <mxCell id="68" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=block;endFill=1;" parent="1" source="64" target="65" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="69" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=block;endFill=1;" parent="1" source="64" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="2580" y="1092.5" as="targetPoint"/>
-                    </mxGeometry>
+                <mxCell id="64" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;PostProcessor&lt;br&gt;(&lt;/font&gt;后置处理器，增强器&lt;/b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;)&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="890" width="190" height="72.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="64" value="PostProcessor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="2520" y="992.5" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="77" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=1;" parent="1" source="65" target="75" edge="1">
+                <mxCell id="178" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;fontSize=18;" edge="1" parent="1" source="65" target="177">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="65" value="BeanPostProcessor" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="2690" y="1032.5" width="120" height="60" as="geometry"/>
+                <mxCell id="65" value="&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;BeanPostProcessor&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="942.5" width="260" height="57.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="76" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.113;entryY=0.52;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=1;" parent="1" source="66" target="74" edge="1">
+                <mxCell id="176" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;fontSize=18;" edge="1" parent="1" source="66" target="175">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="66" value="BeanFactoryPostProcessor" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="2690" y="942.5" width="210" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="70" value="后置处理器，增强器" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="2520" y="1102.5" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="74" value="增强/修改BeanDefination信息" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="2950" y="920" width="290" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="75" value="增强/修改Bean信息" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="2890" y="1012.5" width="260" height="90" as="geometry"/>
+                <mxCell id="66" value="&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;BeanFactoryPostProcessor&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="850" width="260" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="80" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;BeanFactoryPostProcessor1&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="1411.25" y="940" width="277.5" height="40" as="geometry"/>
@@ -301,11 +292,11 @@
                 <mxCell id="124" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="121" target="123" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="121" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span&gt;Aware接口的作用是什么？&lt;/span&gt;&lt;br&gt;&lt;span&gt;当Spring容器创建的Bean，想要获取容器的一些属性，或者一些容器相关的内容，可以实现相关的Aware接口，从中获取想要的属性信息，使用方式如右所示：&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="121" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Aware接口的作用是什么？&lt;br&gt;当Spring容器创建的Bean，想要获取容器的一些属性，或者一些容器相关的内容，可以实现相关的Aware接口，从中获取想要的属性信息，使用方式如右所示：&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="2510" y="705" width="340" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="123" value="&lt;div style=&quot;text-align: left&quot;&gt;@Data&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;@Component(&quot;onePersonDto&quot;)&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;public class PersonDTO implements BeanNameAware {&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; &amp;nbsp; private String beanName;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; &amp;nbsp; @Override&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; &amp;nbsp; public void setBeanName(String s) {&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; beanName = s;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;}&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="2910" y="680" width="390" height="190" as="geometry"/>
+                <mxCell id="123" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;@Data&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;@Component(&quot;onePersonDto&quot;)&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;public class PersonDTO implements BeanNameAware {&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp; &amp;nbsp; private String beanName;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp; &amp;nbsp; @Override&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp; &amp;nbsp; public void setBeanName(String s) {&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; beanName = s;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;}&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="2900" y="650" width="590" height="250" as="geometry"/>
                 </mxCell>
                 <mxCell id="128" value="&lt;font color=&quot;#000000&quot; size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;初始化环节&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="1850" y="900" width="170" height="60" as="geometry"/>
@@ -395,6 +386,12 @@
                 </mxCell>
                 <mxCell id="170" value="System.getEnv()" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="2180" y="1790" width="190" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="175" value="&lt;span&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;增强/修改BeanDefination信息&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="677.5" y="850" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="177" value="&lt;span&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;增强/修改Bean信息&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="942.5" width="177.5" height="58.75" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
