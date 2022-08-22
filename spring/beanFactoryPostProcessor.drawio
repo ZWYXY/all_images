@@ -11,24 +11,19 @@
                 </mxCell>
                 <mxCell id="21" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" parent="1" source="2" target="22" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="580" y="400" as="targetPoint"/>
+                        <mxPoint x="691" y="400" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="2" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;BeanFactoryPostProcessor&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="410" y="310" width="340" height="50" as="geometry"/>
+                    <mxGeometry x="521" y="310" width="340" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="19" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" parent="1" source="3" target="20" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1105" y="420" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="79" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;elbow=vertical;" edge="1" parent="1" source="3" target="78">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="1460" y="335"/>
-                            <mxPoint x="1501" y="328"/>
-                        </Array>
-                    </mxGeometry>
+                <mxCell id="83" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3" target="78">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="&lt;font style=&quot;font-size: 19px&quot;&gt;BeanDefinitionRegistryPostProcessor&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="910" y="310" width="390" height="50" as="geometry"/>
@@ -69,14 +64,14 @@
                 <mxCell id="24" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" parent="1" source="20" target="23" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="1.postProcessBeanDefinitionRegistry" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="978.1300000000001" y="400" width="253.75" height="30" as="geometry"/>
+                <mxCell id="20" value="1. postProcessBeanDefinitionRegistry" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="968.07" y="400" width="273.88" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" value="postProcessBeanFactory" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="432.5" y="400" width="295" height="30" as="geometry"/>
+                    <mxGeometry x="543.5" y="400" width="295" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="2.postProcessBeanFactory" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="957.5" y="480" width="295" height="30" as="geometry"/>
+                <mxCell id="23" value="2. postProcessBeanFactory" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="977.26" y="469" width="255.5" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" style="edgeStyle=none;html=1;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=15;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="25" edge="1" target="27">
                     <mxGeometry relative="1" as="geometry">
@@ -84,16 +79,15 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="25" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="1260" y="400" width="20" height="120" as="geometry"/>
+                    <mxGeometry x="1249" y="393" width="20" height="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="27" value="bdrpp作为bfpp的子类，&lt;br&gt;1. 是它自己的方法，&lt;br&gt;2. 是需要调用父类的方法，&lt;br&gt;也就是说，如果有一天，1.方法执行完了，2方法，在后面处理bfpp的时候，还是继续执行的" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="1358" y="388.5" width="377" height="143" as="geometry"/>
+                    <mxGeometry x="1350.01" y="392.5" width="389" height="120.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=15;curved=1;" parent="1" source="28" target="36" edge="1">
+                <mxCell id="82" style="edgeStyle=elbowEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;" edge="1" parent="1" source="28" target="80">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="180" y="85"/>
-                            <mxPoint x="180" y="200"/>
+                            <mxPoint x="151" y="154"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -116,9 +110,6 @@
                 </mxCell>
                 <mxCell id="34" value="没有实现任何排序接口" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fontSize=15;" parent="1" vertex="1">
                     <mxGeometry x="467.5" y="1300" width="100" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="36" value="Spring中声明为，registry的，都是对应的一些增删改查操作&lt;br&gt;以BeanDefinitionRegisty为例，它就是对beanDeifinition的一些crud操作" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="290" y="160" width="400" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="46" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;dashed=1;endArrow=none;endFill=0;startArrow=classic;startFill=1;" parent="1" source="39" target="45" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -208,8 +199,11 @@
                 <mxCell id="76" value="Spring自动装配问题" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
                     <mxGeometry x="250" y="1600" width="130" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="78" value="&lt;span style=&quot;font-size: 15px&quot;&gt;他是BeanfactoryPostProcessor的子类，他的关注点在于，操作BeanDefinition，BeanFactoryPostProcessor更加偏向于整个工厂的增强&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-                    <mxGeometry x="1306" y="152" width="366" height="106" as="geometry"/>
+                <mxCell id="78" value="&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;它是BeanfactoryPostProcessor的子类，他的关注点在于，操作BeanDefinition，BeanFactoryPostProcessor更加偏向于整个工厂的增强&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+                    <mxGeometry x="1350.01" y="289" width="383.99" height="92" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="&lt;span style=&quot;font-size: 15px&quot;&gt;Spring中声明为，registry的，都是对应的一些增删改查操作&lt;/span&gt;&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;以BeanDefinitionRegisty为例，它就是对beanDeifinition的一些crud操作&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="158" width="583" height="100" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
