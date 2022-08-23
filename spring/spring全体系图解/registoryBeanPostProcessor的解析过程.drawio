@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="YmkY98EwZdjuwDfRxbS6" name="Page-1">
-        <mxGraphModel dx="1691" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000000" pageHeight="10000000" math="0" shadow="0">
+        <mxGraphModel dx="1836" dy="1310" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000000" pageHeight="10000000" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -73,7 +73,7 @@
                 <mxCell id="21" value="&lt;font style=&quot;font-size: 24px&quot;&gt;定义不同的集合来区分不同的BeanPostProcessor&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="120" y="1330" width="480" height="75" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=24;" edge="1" parent="1" source="23" target="35">
+                <mxCell id="36" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=24;" parent="1" source="23" target="35" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1600" y="1460"/>
@@ -83,7 +83,7 @@
                 <mxCell id="23" value="&lt;font style=&quot;font-size: 24px&quot;&gt;实现了PriorityOrdered接口的BeanPostProcessor&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="830" y="1290" width="590" height="54" as="geometry"/>
                 </mxCell>
-                <mxCell id="37" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=24;" edge="1" parent="1" source="27" target="35">
+                <mxCell id="37" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=24;" parent="1" source="27" target="35" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1600" y="1470"/>
@@ -93,7 +93,7 @@
                 <mxCell id="27" value="&lt;span style=&quot;font-size: 24px&quot;&gt;存放Spring内部的BeanPostProcessor&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="830" y="1380" width="590" height="54" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=24;" edge="1" parent="1" source="28" target="35">
+                <mxCell id="38" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=24;" parent="1" source="28" target="35" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1600" y="1570"/>
@@ -103,7 +103,7 @@
                 <mxCell id="28" value="&lt;font style=&quot;font-size: 24px&quot;&gt;实现了Ordered接口的BeanPostProcessor&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="830" y="1470" width="590" height="54" as="geometry"/>
                 </mxCell>
-                <mxCell id="39" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=24;" edge="1" parent="1" source="29" target="35">
+                <mxCell id="39" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=24;" parent="1" source="29" target="35" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1600" y="1640"/>
@@ -113,34 +113,34 @@
                 <mxCell id="29" value="&lt;span style=&quot;font-size: 24px&quot;&gt;存放普通的BeanPostProcessor&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="830" y="1560" width="590" height="54" as="geometry"/>
                 </mxCell>
-                <mxCell id="41" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="35" target="40">
+                <mxCell id="41" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" parent="1" source="35" target="40" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="35" value="&lt;font style=&quot;font-size: 24px&quot;&gt;将容器中包含的BeanPostProcessor按照不同的分类放到不同的集合中去&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="35" value="&lt;font style=&quot;font-size: 24px&quot;&gt;将容器中包含的BeanPostProcessor按照不同的分类放到不同的集合中去&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="880" y="1660" width="530" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="43" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="40" target="42">
+                <mxCell id="43" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" parent="1" source="40" target="42" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="40" value="&lt;font style=&quot;font-size: 24px&quot;&gt;将实现PriorityOrdered接口的BeanPostProcessor进行排序并完成注册功能（就是把bpp加入到beanPostProcessors，在AbstractBeanFactory类中）&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="40" value="&lt;font style=&quot;font-size: 24px&quot;&gt;将实现PriorityOrdered接口的BeanPostProcessor进行排序并完成注册功能（就是把bpp加入到beanPostProcessors，在AbstractBeanFactory类中）&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="890" y="1760" width="510" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="45" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="42" target="44">
+                <mxCell id="45" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" parent="1" source="42" target="44" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" value="&lt;font style=&quot;font-size: 24px&quot;&gt;将实现Ordered接口的BeanPostProcessor进行排序并完成注册功能（就是把bpp加入到beanPostProcessors，在AbstractBeanFactory类中）&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="42" value="&lt;font style=&quot;font-size: 24px&quot;&gt;将实现Ordered接口的BeanPostProcessor进行排序并完成注册功能（就是把bpp加入到beanPostProcessors，在AbstractBeanFactory类中）&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="860" y="1930" width="570" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="47" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" edge="1" parent="1" source="44" target="46">
+                <mxCell id="47" value="" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=24;" parent="1" source="44" target="46" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="44" value="&lt;font style=&quot;font-size: 24px&quot;&gt;将普通的BeanPostProcessor完成注册功能（就是把bpp加入到beanPostProcessors，在AbstractBeanFactory类中）&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="44" value="&lt;font style=&quot;font-size: 24px&quot;&gt;将普通的BeanPostProcessor完成注册功能（就是把bpp加入到beanPostProcessors，在AbstractBeanFactory类中）&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="860" y="2090" width="570" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="46" value="&lt;font style=&quot;font-size: 24px&quot;&gt;将所有spring内部的BeanPostProcessor进行排序并完成注册功能&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="46" value="&lt;font style=&quot;font-size: 24px&quot;&gt;将所有spring内部的BeanPostProcessor进行排序并完成注册功能&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="876.25" y="2250" width="537.5" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="48" value="常使用的BeanPostProcessor&lt;br&gt;* ApplicationContextAwareProcessor&lt;br&gt;* AbstractAutoProxyCreator&lt;br&gt;* AutowiredAnnotationBeanPostProcessor&lt;br&gt;* CommonAnnotationBeanPostProcessor&lt;br&gt;* ApplicationListenerDetector&lt;br&gt;* AspsectJAwareAdvisorAutoProxyCreator(extends AbstratAutoProxyCreator)" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+                <mxCell id="48" value="常使用的BeanPostProcessor&lt;br&gt;* ApplicationContextAwareProcessor&lt;br&gt;* AbstractAutoProxyCreator&lt;br&gt;* AutowiredAnnotationBeanPostProcessor&lt;br&gt;* CommonAnnotationBeanPostProcessor&lt;br&gt;* ApplicationListenerDetector&lt;br&gt;* AspsectJAwareAdvisorAutoProxyCreator(extends AbstratAutoProxyCreator)" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=24;" parent="1" vertex="1">
                     <mxGeometry x="280" y="2390" width="960" height="430" as="geometry"/>
                 </mxCell>
             </root>
