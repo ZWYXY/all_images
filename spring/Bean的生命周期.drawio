@@ -1,13 +1,13 @@
 <mxfile host="65bd71144e">
     <diagram id="N5QffPlRdRMYqsL4Nx3K" name="Page-1">
-        <mxGraphModel dx="2190" dy="1438" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000000" pageHeight="10000000" math="0" shadow="0">
+        <mxGraphModel dx="1587" dy="917" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000000" pageHeight="10000000" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="2" value="Bean的生命周期" style="shape=note;size=20;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;" parent="1" vertex="1">
                     <mxGeometry x="310" y="200" width="100" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="3" target="5" edge="1">
+                <mxCell id="6" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="3" target="7" edge="1">
@@ -16,8 +16,8 @@
                 <mxCell id="10" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="3" target="9" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="560" y="545"/>
-                            <mxPoint x="560" y="635"/>
+                            <mxPoint x="587" y="545"/>
+                            <mxPoint x="587" y="635"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -28,33 +28,28 @@
                     <mxGeometry x="190" y="500" width="340" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="创建容器&lt;br&gt;DefaultListableBeanFactory" style="whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="590" y="420" width="380" height="80" as="geometry"/>
+                    <mxGeometry x="643" y="417" width="305" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="7" value="设置某些属性值" style="whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="590" y="511.25" width="300" height="75" as="geometry"/>
+                    <mxGeometry x="644" y="516.25" width="304" height="57.5" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="9" target="11" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="加载配置文件&lt;br&gt;loadBeanDefinitions" style="whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="590" y="600" width="320" height="70" as="geometry"/>
+                    <mxGeometry x="643" y="612" width="317" height="48" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="11" target="13" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="documen" style="whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="1120" y="590" width="120" height="60" as="geometry"/>
+                <mxCell id="11" value="document" style="whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1048" y="606" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="13" target="15" edge="1">
+                <mxCell id="173" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="15">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="13" target="17" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="1470" y="620"/>
-                            <mxPoint x="1470" y="700"/>
-                        </Array>
-                    </mxGeometry>
+                <mxCell id="174" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="13" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" value="element" style="whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;" parent="1" vertex="1">
                     <mxGeometry x="1320" y="590" width="120" height="60" as="geometry"/>
@@ -63,30 +58,25 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="15" value="parseDefaultElement" style="whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="1500" y="507.5" width="220" height="82.5" as="geometry"/>
+                    <mxGeometry x="1490" y="518.75" width="205" height="75.5" as="geometry"/>
                 </mxCell>
                 <mxCell id="20" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="17" target="19" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="17" value="parseCustomElement" style="whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="1500" y="660" width="210" height="70" as="geometry"/>
+                    <mxGeometry x="1490" y="650" width="210" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="19" target="23" edge="1">
+                <mxCell id="177" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="19" target="23">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="19" value="context&lt;br&gt;aop&lt;br&gt;自定义标签" style="whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="1750" y="642.51" width="280" height="105" as="geometry"/>
+                    <mxGeometry x="1738" y="653.38" width="219" height="63.25" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="21" target="23" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="2090" y="549"/>
-                            <mxPoint x="2090" y="640"/>
-                        </Array>
-                    </mxGeometry>
+                <mxCell id="175" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="21" target="23">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" value="bean" style="whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="1790" y="518.75" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="1734" y="526.5" width="223" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="27" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="23" target="26" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -106,19 +96,18 @@
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="2860" y="640"/>
-                            <mxPoint x="2860" y="948"/>
-                            <mxPoint x="2765" y="948"/>
+                            <mxPoint x="2860" y="1180"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="26" value="RootBeanDefinition" style="whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="2450" y="610" width="375" height="60" as="geometry"/>
+                    <mxGeometry x="2447" y="605" width="375" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="28" value="合并" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
-                    <mxGeometry x="2365" y="610" width="50" height="20" as="geometry"/>
+                    <mxGeometry x="2384" y="560" width="50" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="30" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fontSize=16;" parent="1" vertex="1">
-                    <mxGeometry x="2340" y="484.38" width="40" height="421.25" as="geometry"/>
+                    <mxGeometry x="2346" y="458.75" width="40" height="421.25" as="geometry"/>
                 </mxCell>
                 <mxCell id="32" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="31" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -127,7 +116,7 @@
                     <mxGeometry x="300" y="360" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="33" value="后续调用才会触发" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
-                    <mxGeometry x="2290" y="440" width="140" height="20" as="geometry"/>
+                    <mxGeometry x="2310" y="433" width="140" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="37" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="34" target="36" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -136,16 +125,16 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="34" value="prepareBeanFactory" style="whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="300" y="820" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="273" y="746" width="175" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="39" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="36" target="38" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="36" value="给容器工厂设置某些属性值" style="whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="500" y="820" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="500.5" y="746" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="38" value="。。。。" style="whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="700" y="820" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="700.5" y="746" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="43" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="40" target="42" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -163,21 +152,21 @@
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1800" y="810" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="835" y="809"/>
-                            <mxPoint x="2225" y="809"/>
+                            <mxPoint x="835" y="843"/>
+                            <mxPoint x="2225" y="843"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="58" value="修改或者添加" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="57" vertex="1" connectable="0">
-                    <mxGeometry x="0.423" y="-5" relative="1" as="geometry">
-                        <mxPoint x="-30" y="-4" as="offset"/>
+                <mxCell id="182" value="&lt;span style=&quot;font-size: 16px&quot;&gt;修改或者添加&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=19;" vertex="1" connectable="0" parent="57">
+                    <mxGeometry x="-0.322" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="42" value="调用执行BFPP，可以修改或者引入其它beanDefinition，但是需要注意，BFPP针对的操作对象是BeanFactory" style="whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;" parent="1" vertex="1">
                     <mxGeometry x="640" y="947.5" width="390" height="95" as="geometry"/>
                 </mxCell>
-                <mxCell id="44" value="ConfigurationClassPostProcessor&lt;br&gt;用来完成对相关注解的解析工作&lt;br&gt;@Bean&lt;br&gt;@ImportResource&lt;br&gt;@Component等" style="whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="1070" y="905.63" width="520" height="177.5" as="geometry"/>
+                <mxCell id="44" value="ConfigurationClassPostProcessor&lt;br&gt;用来完成对相关注解的解析工作&lt;br&gt;@Bean、@Configuration&lt;br&gt;@Import、@ImportResource&lt;br&gt;@Component、@ComponentScan" style="whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1072" y="934.21" width="386" height="121.59" as="geometry"/>
                 </mxCell>
                 <mxCell id="49" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="46" target="48" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -198,7 +187,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="51" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono extrabold&amp;#34; , monospace ; font-size: 12.0pt&quot;&gt;finishBeanFactoryInitialization&lt;/pre&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="160" y="1260" width="400" height="112.5" as="geometry"/>
+                    <mxGeometry x="194.5" y="1287.24" width="332" height="58" as="geometry"/>
                 </mxCell>
                 <mxCell id="56" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="53" target="55" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -217,15 +206,15 @@
                 <mxCell id="55" value="将需要创建的bean对象放到数组中，挨个进行创建" style="whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;" parent="1" vertex="1">
                     <mxGeometry x="1150" y="1279.3700000000001" width="210" height="73.75" as="geometry"/>
                 </mxCell>
-                <mxCell id="61" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="59" target="26" edge="1">
+                <mxCell id="179" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="1" source="59" target="26">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="2638" y="1000"/>
+                            <mxPoint x="2483" y="1000"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="62" value="转换成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="61" vertex="1" connectable="0">
-                    <mxGeometry x="-0.4462" y="-2" relative="1" as="geometry">
+                <mxCell id="183" value="转换成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=23;" vertex="1" connectable="0" parent="179">
+                    <mxGeometry x="-0.1828" y="-2" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
@@ -269,7 +258,7 @@
                     <mxGeometry x="2355" y="1460" width="190" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="73" value="Supplier" style="whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="2639" y="1366" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="2644" y="1365" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="76" value="FactoryMethod" style="whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
                     <mxGeometry x="2644" y="1437" width="120" height="60" as="geometry"/>
@@ -372,7 +361,12 @@
                     <mxGeometry x="2590" y="2080" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="114" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="110" target="113" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2993" y="2110"/>
+                            <mxPoint x="2993" y="2050"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="115" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" parent="1" source="110" target="116" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -386,34 +380,38 @@
                     <mxGeometry x="2790" y="2080" width="150" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="113" value="BeanNameAware" style="whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-                    <mxGeometry x="3047" y="2028" width="136" height="59" as="geometry"/>
+                    <mxGeometry x="3047" y="2028" width="202" height="45" as="geometry"/>
                 </mxCell>
                 <mxCell id="116" value="BeanClassLoaderAare" style="whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-                    <mxGeometry x="3047" y="2104" width="172" height="69" as="geometry"/>
+                    <mxGeometry x="3047" y="2088.75" width="202" height="42.5" as="geometry"/>
                 </mxCell>
                 <mxCell id="118" value="BeanFactoryAware" style="whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-                    <mxGeometry x="3047" y="2182" width="210" height="70" as="geometry"/>
+                    <mxGeometry x="3047" y="2144" width="203" height="47" as="geometry"/>
                 </mxCell>
-                <mxCell id="124" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="121" target="123" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="190" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=23;" edge="1" parent="1" source="121" target="128">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2960" y="2313"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="130" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="121" target="128" edge="1">
+                <mxCell id="191" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=23;" edge="1" parent="1" source="121" target="123">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="121" value="执行BFPP的before方法" style="whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-                    <mxGeometry x="2790" y="2205" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="2799" y="2263" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="126" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="123" target="125" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="123" value="&lt;span&gt;ApplicationAwarePostProcessor&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-                    <mxGeometry x="2970" y="2300" width="303" height="50" as="geometry"/>
+                    <mxGeometry x="3002.5" y="2233" width="303" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="125" value="继续实现某些Aware接口的set方法" style="whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-                    <mxGeometry x="3314" y="2295.5" width="312" height="59" as="geometry"/>
+                    <mxGeometry x="3344" y="2231" width="300" height="54" as="geometry"/>
                 </mxCell>
                 <mxCell id="128" value="CommonAnnotationBeanPostProcessor" style="whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-                    <mxGeometry x="2970" y="2373" width="306" height="53" as="geometry"/>
+                    <mxGeometry x="3002.5" y="2303" width="306" height="53" as="geometry"/>
                 </mxCell>
                 <mxCell id="134" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;fillColor=#f0a30a;strokeColor=#BD7000;" parent="1" source="131" target="132" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -422,28 +420,28 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="131" value="invokeInitMethod" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="2790" y="2497" width="170" height="60" as="geometry"/>
+                    <mxGeometry x="2776" y="2444" width="170" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="164" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;fontColor=#FFFFFF;fillColor=#f0a30a;strokeColor=#BD7000;" parent="1" source="132" target="163" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="132" value="是否实现initializingBean" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="3020" y="2447" width="260" height="60" as="geometry"/>
+                    <mxGeometry x="3006" y="2394" width="260" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="135" value="最后一次修改我们的属性值" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="3520" y="2447" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="3506" y="2394" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="137" value="执行用户自定义的init-method" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="3020" y="2537" width="250" height="60" as="geometry"/>
+                    <mxGeometry x="3006" y="2484" width="250" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="145" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;fillColor=#f0a30a;strokeColor=#BD7000;" parent="1" source="141" target="144" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="141" value="执行BPP的After" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="2790" y="2629" width="120" height="60" as="geometry"/>
+                <mxCell id="141" value="执行BPP的fter&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="2770" y="2597" width="167" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="144" value="AOP" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="2990" y="2629" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="3015" y="2597" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="149" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;" parent="1" source="146" target="148" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -452,13 +450,23 @@
                     <mxGeometry x="2390" y="2220" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="155" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;fillColor=#6d8764;strokeColor=#FFFFFF;" parent="1" source="148" target="150" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2340" y="2390"/>
+                            <mxPoint x="2340" y="2290"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="157" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;fillColor=#6d8764;strokeColor=#FFFFFF;" parent="1" source="148" target="156" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="162" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;fillColor=#6d8764;strokeColor=#FFFFFF;" parent="1" source="148" target="160" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2339" y="2390"/>
+                            <mxPoint x="2339" y="2496"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="148" value="销毁流程" style="whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
                     <mxGeometry x="2390" y="2360" width="120" height="60" as="geometry"/>
@@ -467,10 +475,10 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="150" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono extrabold&amp;quot;, monospace; font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;DestructionAwareBeanPostProcessors&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#6d8764;fontColor=#000000;strokeColor=#FFFFFF;fontStyle=1;labelBackgroundColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="1975" y="2260" width="310" height="60" as="geometry"/>
+                    <mxGeometry x="1960" y="2260" width="310" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="152" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono extrabold&amp;quot;, monospace; font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;postProcessBeforeDestruction&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#6d8764;fontColor=#000000;strokeColor=#FFFFFF;fontStyle=1;labelBackgroundColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="1630" y="2255" width="280" height="70" as="geometry"/>
+                    <mxGeometry x="1615" y="2255" width="280" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="159" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=16;fillColor=#6d8764;strokeColor=#FFFFFF;fontColor=#000000;labelBackgroundColor=none;fontStyle=1" parent="1" source="156" target="158" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -479,16 +487,16 @@
                     <mxGeometry x="2150" y="2360" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="158" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono extrabold&amp;quot;, monospace; font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;destroy&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#6d8764;fontColor=#000000;strokeColor=#FFFFFF;fontStyle=1;labelBackgroundColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="1950" y="2360" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="1981" y="2360" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="160" value="自定义的destoryMethod" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#6d8764;fontColor=#000000;strokeColor=#FFFFFF;labelBackgroundColor=none;fontStyle=1" parent="1" vertex="1">
-                    <mxGeometry x="2165" y="2460" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="2147" y="2466" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="165" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;fontColor=#FFFFFF;fillColor=#f0a30a;strokeColor=#BD7000;" parent="1" source="163" target="135" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="163" value="afterPropertiesSet" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="3310" y="2442" width="170" height="70" as="geometry"/>
+                    <mxGeometry x="3296" y="2389" width="170" height="70" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

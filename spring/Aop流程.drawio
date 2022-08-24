@@ -1,13 +1,13 @@
 <mxfile host="65bd71144e">
     <diagram id="LAZuYxywogpeZMEOusv5" name="Page-1">
-        <mxGraphModel dx="2142" dy="1528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000000" pageHeight="10000000" math="0" shadow="0">
+        <mxGraphModel dx="2267" dy="1310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000000" pageHeight="10000000" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="33" style="edgeStyle=none;rounded=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;strokeColor=#FFFFFF;strokeWidth=2;" parent="1" source="34" target="36" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" value="遍历当前容器中存在的BeanDefinition，并进行对象的创建工作" style="whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
+                <mxCell id="34" value="遍历当前容器中存在的BeanDefinition，&lt;br&gt;并进行对象的创建工作" style="whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
                     <mxGeometry x="540" y="80" width="340" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="35" style="edgeStyle=none;rounded=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;strokeColor=#FFFFFF;strokeWidth=2;" parent="1" source="36" target="38" edge="1">
@@ -37,11 +37,14 @@
                 <mxCell id="43" style="edgeStyle=none;rounded=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;strokeColor=#FFFFFF;strokeWidth=2;" parent="1" source="44" target="47" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
+                <mxCell id="135" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.018;entryY=0.499;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;" edge="1" parent="1" source="44" target="45">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="44" value="resolveBeforeInstantiation()" style="whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
                     <mxGeometry x="556.25" y="780" width="302.5" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="45" value="给BeanPostProcessor一个机会去返回自定义动态代理生成的对象，在当前BPP中，存在一个AutoProxyCreator的对象，因此会执行后续的判断逻辑" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=20;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="130" y="720" width="360" height="230" as="geometry"/>
+                    <mxGeometry x="115.01" y="700" width="360" height="230" as="geometry"/>
                 </mxCell>
                 <mxCell id="46" style="edgeStyle=none;rounded=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;strokeColor=#FFFFFF;strokeWidth=2;" parent="1" source="47" target="48" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -104,7 +107,7 @@
                 <mxCell id="71" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;fontSize=20;strokeColor=#FFFFFF;strokeWidth=2;" parent="1" source="64" target="70" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="133" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="64" target="75">
+                <mxCell id="133" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="64" target="75" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="64" value="经过循环将所有Advisor对象准备好" style="whiteSpace=wrap;html=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
@@ -313,6 +316,74 @@
                 </mxCell>
                 <mxCell id="127" value="未完待续..." style="whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
                     <mxGeometry x="1876.25" y="1990" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="134" value="AOP整体流程概述（猜测）&lt;br style=&quot;font-size: 18px&quot;&gt;1. 查看配置文件的解析工作，在处理之后的BeanDefinition中包含什么信息?&lt;br&gt;BeanDefination的解析工作&lt;br style=&quot;font-size: 18px&quot;&gt;2.对AOP相关的beanDefinition进行实例化操作&lt;br style=&quot;font-size: 18px&quot;&gt;在进行第一个对象创建之前，就必须把AOP需要的相关对象提前准备好，因为无法预估哪些对象需要动态代理&lt;br style=&quot;font-size: 18px&quot;&gt;3.在哪个步骤中可以提前实例化并且生成对应的对象&lt;br style=&quot;font-size: 18px&quot;&gt;BFPP是用来对BeanFactory进行修改操作的，不会影响到后续的实例化过程&lt;br style=&quot;font-size: 18px&quot;&gt;BPP(BeanPostProcessor(Before和After)) 的子类、resolveBeforeInstantiation()" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="980" y="70" width="820" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="138" value="" style="edgeStyle=none;html=1;fontSize=18;" edge="1" parent="1" source="136" target="137">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" value="创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="138">
+                    <mxGeometry x="0.3791" y="-3" relative="1" as="geometry">
+                        <mxPoint x="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="136" value="创建AspectJPointCutAdvisor对象" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="2270" y="680" width="270" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" value="" style="edgeStyle=none;html=1;fontSize=18;" edge="1" parent="1" source="137" target="139">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="150" value="需要创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="140">
+                    <mxGeometry x="0.1693" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="141" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="137" target="144">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="3246.74" y="810" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="154" value="需要创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="141">
+                    <mxGeometry x="0.1494" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="142" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="137" target="143">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="3404.24" y="635.0000000000002" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="149" value="需要创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="142">
+                    <mxGeometry x="0.1822" y="-4" relative="1" as="geometry">
+                        <mxPoint x="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="147" value="" style="edgeStyle=none;html=1;fontSize=18;" edge="1" parent="1" source="137" target="136">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="148" value="需要创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="147">
+                    <mxGeometry x="-0.3435" y="4" relative="1" as="geometry">
+                        <mxPoint x="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="137" value="AspectJAroundAdvice" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="2736.74" y="695" width="445" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="139" value="AspectJExpressionPointcut" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="3404.24" y="695" width="272.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="143" value="Method" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="3404.24" y="600" width="265.76" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" value="AspectInstanceFactory" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="3404.24" y="790" width="272.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="157" value="从左向右创建" style="shape=singleArrow;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="2260" y="430" width="1470" height="131.25" as="geometry"/>
+                </mxCell>
+                <mxCell id="158" value="必须要把右边的对象创建完成之后左边的对象才能创建" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="2226.74" y="870" width="1450" height="210" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
