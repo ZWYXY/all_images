@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="AKpcfMyupfmr6bvoD8BU" name="Page-1">
-        <mxGraphModel dx="1285" dy="917" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000000" pageHeight="10000000" math="0" shadow="0">
+        <mxGraphModel dx="1501" dy="917" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000000" pageHeight="10000000" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -22,7 +22,7 @@
                         <mxPoint x="1105" y="420" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="83" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3" target="78">
+                <mxCell id="83" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3" target="78" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="&lt;font style=&quot;font-size: 19px&quot;&gt;BeanDefinitionRegistryPostProcessor&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -73,7 +73,7 @@
                 <mxCell id="23" value="2. postProcessBeanFactory" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
                     <mxGeometry x="977.26" y="469" width="255.5" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" style="edgeStyle=none;html=1;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=15;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="25" edge="1" target="27">
+                <mxCell id="26" style="edgeStyle=none;html=1;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=15;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="25" target="27" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1370" y="460" as="targetPoint"/>
                     </mxGeometry>
@@ -84,7 +84,7 @@
                 <mxCell id="27" value="bdrpp作为bfpp的子类，&lt;br&gt;1. 是它自己的方法，&lt;br&gt;2. 是需要调用父类的方法，&lt;br&gt;也就是说，如果有一天，1.方法执行完了，2方法，在后面处理bfpp的时候，还是继续执行的" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
                     <mxGeometry x="1350.01" y="392.5" width="389" height="120.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="82" style="edgeStyle=elbowEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;" edge="1" parent="1" source="28" target="80">
+                <mxCell id="82" style="edgeStyle=elbowEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;" parent="1" source="28" target="80" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="151" y="154"/>
@@ -175,34 +175,28 @@
                 <mxCell id="70" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=15;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="68" target="69" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="68" value="bfpp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="480" y="1600" width="120" height="60" as="geometry"/>
+                <mxCell id="68" value="处理bfpp的时候，有个叫ConfigurationClassPostProcessor&lt;br&gt;的BFPP" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="302" y="1600" width="298" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="72" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=15;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="69" target="71" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="69" value="ConfigurationClassPostProcessor，处理注解相关的解析工作&lt;br&gt;@Component&amp;nbsp; @ComponentScan @Import&lt;br&gt;&amp;nbsp;@ImportResource @PropertySource @Bean，在解析@Import的时候，会识别到AutoConfigurationImportSelector有一个属性是延迟加载ImportSelector" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="667.5" y="1577.5" width="420" height="105" as="geometry"/>
+                <mxCell id="69" value="ConfigurationClassPostProcessor，处理注解相关的解析工作&lt;br&gt;@Component&amp;nbsp;&lt;br&gt;&amp;nbsp;@ComponentScan&lt;br&gt;&amp;nbsp;@Import&lt;br&gt;&amp;nbsp;@ImportResource&lt;br&gt;&amp;nbsp;@PropertySource &lt;br&gt;@Bean，&lt;br&gt;在解析@Import的时候，&lt;br&gt;会调用AutoConfigurationImportSelector的process()&lt;br&gt;在其中会调用getAutoConfigurationEntry()&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="669" y="1530.25" width="420" height="199.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="75" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=15;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="71" target="74" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="71" value="在延迟加载的时候，会调用一个getImports方法，或获取到autoConfigurationEntry的一个对象" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="1120.01" y="1600" width="230" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="74" value="在获取entry对象的时候，会调用AutoConfigurationImportSelector#getCandidateConfigurations&lt;br&gt;方法，此时会把配置文件的属性值加载回来，来完成自动装配" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="1390" y="1600" width="440" height="60" as="geometry"/>
+                <mxCell id="71" value="在new这个AutoConfigutaionEntry对象的时候，会调用&lt;br&gt;AutoConfigurationImportSelector#getCandidateConfigurations()&lt;br&gt;就会把meta-info目录下对应的EnableAutoConfigutaion对应的key的value全部加载进来，来完成自动装配" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="1129" y="1582.5" width="491" height="95" as="geometry"/>
                 </mxCell>
                 <mxCell id="77" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=15;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="76" target="68" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="76" value="Spring自动装配问题" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="250" y="1600" width="130" height="60" as="geometry"/>
+                <mxCell id="76" value="SpringBoot自动装配问题" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="105" y="1600" width="130" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="78" value="&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;它是BeanfactoryPostProcessor的子类，他的关注点在于，操作BeanDefinition，BeanFactoryPostProcessor更加偏向于整个工厂的增强&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+                <mxCell id="78" value="&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;它是BeanfactoryPostProcessor的子类，他的关注点在于，操作BeanDefinition，BeanFactoryPostProcessor更加偏向于整个工厂的增强&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
                     <mxGeometry x="1350.01" y="289" width="383.99" height="92" as="geometry"/>
                 </mxCell>
-                <mxCell id="80" value="&lt;span style=&quot;font-size: 15px&quot;&gt;Spring中声明为，registry的，都是对应的一些增删改查操作&lt;/span&gt;&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;以BeanDefinitionRegisty为例，它就是对beanDeifinition的一些crud操作&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+                <mxCell id="80" value="&lt;span style=&quot;font-size: 15px&quot;&gt;Spring中声明为，registry的，都是对应的一些增删改查操作&lt;/span&gt;&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;以BeanDefinitionRegisty为例，它就是对beanDeifinition的一些crud操作&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
                     <mxGeometry x="280" y="158" width="583" height="100" as="geometry"/>
                 </mxCell>
             </root>
